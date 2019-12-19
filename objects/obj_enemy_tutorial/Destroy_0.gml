@@ -1,0 +1,9 @@
+/// @description Insert description here
+// You can write your code in this editor
+instance_create_layer(x,y,"Instances",obj_ammo);
+
+instance_create_layer(x,y,"Instances",obj_blood_enemy);
+
+
+
+instance_destroy(obj_blocker);
